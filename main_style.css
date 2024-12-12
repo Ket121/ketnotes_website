@@ -14,7 +14,14 @@ body{
   padding-left: 20px;
 }
 
-
+.subtitle {
+        font-size: smaller; /* Riduce la dimensione del font */
+        font-style: italic; /* Testo in corsivo */
+        position: absolute; /* Permette di posizionarlo in basso a sinistra */
+        bottom: 0; /* Posiziona l'elemento sul fondo del div */
+        left: 0; /* Posiziona l'elemento a sinistra del div */
+        margin: 5px; /* Aggiunge un po' di spazio dai bordi */
+    }
 
 .container{
   width : 100%;
